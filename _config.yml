@@ -80,7 +80,7 @@ analytics:
 # Site Author
 author:
   name             : "Pratama Nur Wijaya"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Mobile apps Developer based and live in Yogyakarta"
   location         : "Yogyakarta"
   email            : "com.pratamawijaya@gmail.com"
