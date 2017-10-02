@@ -2,6 +2,7 @@
 title : "About Me"
 permalink : /about/
 layout: single
+comments: false
 ---
 
 ## Pratama Nur Wijaya
