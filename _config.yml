@@ -9,9 +9,9 @@ minimal_mistakes_skin    : "contrast" # "air", "contrast", "dark", "dirt", "mint
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Pratama Wijaya"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Pratama Nur Wijaya"
 description              : "An amazing website."
 url                      : "https://pratamawijaya.com" #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -79,11 +79,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Pratama Nur Wijaya"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  location         : "Yogyakarta"
+  email            : "com.pratamawijaya@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
