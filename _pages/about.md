@@ -1,16 +1,14 @@
 ---
-title : "about"
+title : "About Me"
 permalink : /about/
 layout: single
 ---
-
-About me
 
 ## Pratama Nur Wijaya
 Software Developer yang berfokus di **mobile apps development** berlokasi di Yogyakarta, Indonesia
 
 ## Bahasa Pemrograman
-1. Jaxa
+1. Java
 2. Kotlin
 3. PHP
 4. Python

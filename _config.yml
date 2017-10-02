@@ -12,7 +12,7 @@ locale                   : "en"
 title                    : "Pratama Wijaya"
 title_separator          : "-"
 name                     : "Pratama Nur Wijaya"
-description              : "Android Tutorial berbahasa Indonesia"
+description              : "Pratama Nur Wijaya blog, membahas seputar technology terutama yang berkaitan dengan mobile apps development"
 url                      : "https://pratamawijaya.com" #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -81,7 +81,7 @@ analytics:
 author:
   name             : "Pratama Nur Wijaya"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Mobile apps Developer based and live in Yogyakarta"
   location         : "Yogyakarta"
   email            : "com.pratamawijaya@gmail.com"
   uri              :
@@ -91,8 +91,8 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
-  gitlab           :
+  github           : "pratamawijaya"
+  gitlab           : "pratamawijaya"
   google_plus      :
   keybase          :
   instagram        :
@@ -101,9 +101,9 @@ author:
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
-  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
+  steam            : "https://steamcommunity.com/id/pratamawijaya"  # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : "tama_hk"
   vine             :
   weibo            :
   xing             :
