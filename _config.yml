@@ -9,7 +9,7 @@ minimal_mistakes_skin    : "contrast" # "air", "contrast", "dark", "dirt", "mint
 
 # Site Settings
 locale                   : "en"
-title                    : "Pratama Wijaya"
+title                    : "Pratama Nur Wijaya Blog"
 title_separator          : "-"
 name                     : "Pratama Nur Wijaya"
 description              : "Pratama Nur Wijaya blog, membahas seputar technology terutama yang berkaitan dengan mobile apps development"
@@ -17,7 +17,7 @@ url                      : "https://pratamawijaya.com" #the base hostname & prot
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -82,7 +82,7 @@ author:
   name             : "Pratama Nur Wijaya"
   avatar           : "/assets/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Mobile apps Developer based and live in Yogyakarta"
-  location         : "Yogyakarta"
+  location         : "Yogyakarta, Indonesia"
   email            : "com.pratamawijaya@gmail.com"
   uri              :
   bitbucket        :
