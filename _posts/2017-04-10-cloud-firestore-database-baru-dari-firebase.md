@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Cloud Firestore NoSql Document Database dari Firebase"
-date:   2017-10-04 12:00:37 +0700
+date:   2017-10-04 12:10:37 +0700
 excerpt: "Mengenal Cloud Firestore NoSql Document Database dari Firebase yang baru saja diluncurkan"
 categories: 
     - news
