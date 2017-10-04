@@ -50,6 +50,10 @@ menyimpan data dalam dokumen yang diatur didalam collection
 - complex data dan hierarchial data lebih mudah di scale karena penggunaan _collections_
 - mengurangi _denormalization_ data dan data _flattening_
 
+## Data Type
+firestore via webconsole sudah menyediakan list data type apa saja yang disupport, jadi meminimalisir kesalahan yang terjadi ketika salah mendefinisikan data type untuk sebuah field
+
+![Firestore Data Type](/assets/images/firestore_datatype.png){:class="img-responsive"}
 
 ## Query 
 
