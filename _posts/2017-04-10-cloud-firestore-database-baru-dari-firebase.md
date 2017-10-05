@@ -9,7 +9,7 @@ tags :
     - firebase
     - database
     - nosql
-    - firestor
+    - firestore
 ---
 
 ![Firestore Database](/assets/images/cloud_firestore_firebase.png){:class="img-responsive"}
