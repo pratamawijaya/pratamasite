@@ -26,3 +26,55 @@ errornya adalah
 ```java
 java.lang.NullPointerException (no error message)   
 ```
+
+setelah saya coba analisa dengan cara paste error message tersebut ke google dengan menambahkan kata kunci react-native ternyata problemnya adalah dikarenakan versi gradle tools yang masih menggunakan versi 2 dan gradle wrapper yang masih menggunakan versi lama, step by step fixnya adalah
+
+buka folder file gradle-wrapper.properties di folder android/app/gradle/wrapper kemudian ganti menjadi seperti ini
+
+```bash
+distributionBase=GRADLE_USER_HOME
+distributionPath=wrapper/dists
+zipStoreBase=GRADLE_USER_HOME
+zipStorePath=wrapper/dists
+distributionUrl=https\://services.gradle.org/distributions/gradle-4.1-all.zip
+
+```
+
+langkah kedua buka file build.gradle yang berada di folder android/build.gradle dan rubah menjadi seperti ini
+
+```bash
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        jcenter()
+        maven {
+            // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+            url "$rootDir/../node_modules/react-native/android"
+        }
+    }
+}
+
+```
+
+kemudian setelah dirubah coba compile ulang, maka hasilnya adalah seperti dibawah ini
+
+[![asciicast](https://asciinema.org/a/MtNLpo3gMVQR1R4cJHHK9qKhX.png)](https://asciinema.org/a/MtNLpo3gMVQR1R4cJHHK9qKhX)
+
+Sekian cerita pengalaman saya yang baru mencoba pertama kali react-native.
+
+Salam
