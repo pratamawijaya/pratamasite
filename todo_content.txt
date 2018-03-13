@@ -1,0 +1,8 @@
+- Constraint unbundle layout manager yang artinya constraint 
+layout bukan bagian dari core android framework, constraint layout
+di distribukan sebagai support library, sehingga constraint
+layout dapat di update dan dirubah dengan mudah diluar dari update core 
+android release
+
+constraint layout mengurangi masalah nested layout,
+nesting layout menyebabkan penurunan performa
