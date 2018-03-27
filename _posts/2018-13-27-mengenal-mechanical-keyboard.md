@@ -32,23 +32,23 @@ Switch adalah salah satu komponen utama pada mechanical keyboard dan memiliki be
 
 #### Cherry Mx Red
 Salah satu switch mechanical buatan dari cherry dengan karakteristik linier, dan memiliki actuation force 45g
-[Cherry Mx Red](http://www.wasdkeyboards.com/media/guide/cherry-mx-red.jpg)
+![Cherry Mx Red](http://www.wasdkeyboards.com/media/guide/cherry-mx-red.jpg)
 
 #### Cherry Mx Blue
 Switch cherry dengan karakteristik tactile click dengan actuation force 50g
-[Cherry Mx Blue](http://www.wasdkeyboards.com/media/guide/cherry-mx-blue.jpg)
+![Cherry Mx Blue](http://www.wasdkeyboards.com/media/guide/cherry-mx-blue.jpg)
 
 #### Cherry Mx Brown
 Switch cherry dengan karakteristik tactile bump dengan actuation force 45g
-[Cherry Mx Brown](http://www.wasdkeyboards.com/media/guide/cherry-mx-brown.jpg)
+![Cherry Mx Brown](http://www.wasdkeyboards.com/media/guide/cherry-mx-brown.jpg)
 
 #### Cherry Mx Clear
 Switch cherry dengan karakteristik tactile bump dengan actuation force 65g
-[Cherry Mx Clear](http://www.wasdkeyboards.com/media/guide/graph-mx-clear.jpg)
+![Cherry Mx Clear](http://www.wasdkeyboards.com/media/guide/graph-mx-clear.jpg)
 
 #### Cherry Mx Black
 Switch cherry dengan karakteristik linear dengan actuation force 60g
-[Cherry Mx Black](http://www.wasdkeyboards.com/media/guide/cherry-mx-black.jpg)
+![Cherry Mx Black](http://www.wasdkeyboards.com/media/guide/cherry-mx-black.jpg)
 
 Selain dari produk cherry saat ini mulai banyak produk clone cherry mx yang tidak kalah terkenal
 
@@ -69,6 +69,27 @@ Pcb adalah komponen elektronika yang ada pada mechanical keyboard, berisi kompon
 ![Contoh PCB](/assets/images/pcb.png){:class="img-responsive"}
 
 ### Plate
-Plate adalah komponen untuk menempatkan switch diatas pcb, biasanya plate ini ada yang berbahan stainless steel, ada juga yang berbahan brass plate
+Plate adalah komponen untuk menempatkan switch diatas pcb, biasanya plate ini ada yang berbahan stainless steel, ada juga yang berbahan brass plate dimana yang berbahan brass ini lebih berat daripada bahan stainless
 ![Contoh Plate](/assets/images/plate.png){:class="img-responsive"}
 
+### Case
+Case adalah komponen mech kb yang memiliki beragam jenis, mulai dari bahan dan bentuk
+contoh case keyboard yang ada dipasaran
+
+![Lambo 60% case](https://massdrop-s3.imgix.net/product-images/lambo-60-anodized-aluminum-case/MD-12607_20151110141204_2c5033c6720bfcc3.jpg?auto=format&fm=jpg&fit=crop&w=955&dpr=1)
+
+contoh diatas adalah case lambo yang bisa dipesan melalui massdrop https://www.massdrop.com/buy/lambo-60-anodized-aluminum-case
+yang membedakan sebuah case adalah bentuk, lalu profile kemiringan, dan bisa juga seberapa berat, kenapa berat ada yang senang dengan menggunakan case berat di mech keyboardnya dengan alasan agar keyboard tidak mudah bergeser ketika berada dimeja.
+
+### Keycap
+Keycap adalah komponen mechanical keyboard yang ragamnya sangat banyak, contoh berikut ini adalah keycap GMK Nautilus yang pernah dijual pada situs massdrop
+
+![Nautilus](https://massdrop-s3.imgix.net/product-images/massdrop-x-zambumon-gmk-nautilus-custom-keycap-set/01_Base_20170710102355.png?auto=format&fm=jpg&fit=crop&w=955&dpr=1)
+
+dan salah satu komponen yang mahal pada suatu mechanical keyboard adalah keycap, untuk informasi keycap gmk nautilus diatas dijual mulai dari 2,7juta IDR (paling murah) untuk base set, kenapa mahal ? karena merk GMK sendiri sudah terkenal dalam hal pembuatan komponen electronic.
+
+Tidak semua keycap mechanical keyboard itu mahal, masih ada yang memiliki harga terjangkau, sebut saja taihao
+
+![Taihao Cubic](http://www.tai-hao.com/upload/catalog_b/2f4559e8c2c11de9b8c8c639fd93da43.jpg) 
+
+contoh keycap diatas bisa didapatkan dengan harga dibawah 500rbu IDR
