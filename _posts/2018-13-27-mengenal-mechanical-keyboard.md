@@ -119,9 +119,14 @@ contoh full keyboard adalah seperti dibawah ini, dengan numpad dan tombol functi
 
 ![60 key without arrow](https://massdrop-s3.imgix.net/product-images/gmk-3run-keycap-set/MD-28806_20161017113614_de56d2766d92ed2f.jpg?auto=format&fm=jpg&fit=crop&w=955&dpr=1)
 
+contoh keyboard 60% dengan arrow function
+
 ![60 key with arrow](https://massdrop-s3.imgix.net/product-images/gh60-xd64-mechanical-keyboard-kit/363A1304%20copy_20170505114428.jpg?auto=format&fm=jpg&fit=crop&w=955&dpr=1)
 
 ### 40% keyboard
 40% keyboard adalah keyboard yang lebih compact dan kecil daripada 60% dimana tombol angka dihilangkan menyisakan alphabet dan bottom row seperti space dll
 
 ![40% keyboard](https://www.extremetech.com/wp-content/uploads/2016/12/MD-26055_20160823140932_ea396a26bf42b12c.jpg)
+
+Promethium Kb buatan orang indonesia [link](https://promethium.keyboard.id/)
+![40% promethium](/assets/images/promethium_kb.jpg){:class="img-responsive"}
