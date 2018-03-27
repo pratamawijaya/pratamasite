@@ -100,8 +100,8 @@ Tidak semua keycap mechanical keyboard itu mahal, masih ada yang memiliki harga 
 
 contoh keycap diatas bisa didapatkan dengan harga dibawah 500rbu IDR
 
-## Formfactor atau bentuk
-Selain komponen hal yang menarik dibahas adalah bentuk atau formfactor dari sebuah mechanical keyboard, mulai dari full, TKL (Ten Key Less), 75%, 60% 40% 
+## Layout
+Selain komponen hal yang menarik dibahas adalah bentuk atau layout dari sebuah mechanical keyboard, mulai dari full, TKL (Ten Key Less), 75%, 60% 40% 
 
 ### Fullkeyboard
 contoh full keyboard adalah seperti dibawah ini, dengan numpad dan tombol function arrow
