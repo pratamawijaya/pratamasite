@@ -36,18 +36,22 @@ Salah satu switch mechanical buatan dari cherry dengan karakteristik linier, dan
 
 #### Cherry Mx Blue
 Switch cherry dengan karakteristik tactile click dengan actuation force 50g
+
 ![Cherry Mx Blue](http://www.wasdkeyboards.com/media/guide/cherry-mx-blue.jpg)
 
 #### Cherry Mx Brown
 Switch cherry dengan karakteristik tactile bump dengan actuation force 45g
+
 ![Cherry Mx Brown](http://www.wasdkeyboards.com/media/guide/cherry-mx-brown.jpg)
 
 #### Cherry Mx Clear
 Switch cherry dengan karakteristik tactile bump dengan actuation force 65g
+
 ![Cherry Mx Clear](http://www.wasdkeyboards.com/media/guide/graph-mx-clear.jpg)
 
 #### Cherry Mx Black
 Switch cherry dengan karakteristik linear dengan actuation force 60g
+
 ![Cherry Mx Black](http://www.wasdkeyboards.com/media/guide/cherry-mx-black.jpg)
 
 Selain dari produk cherry saat ini mulai banyak produk clone cherry mx yang tidak kalah terkenal
@@ -66,10 +70,12 @@ karakteristik switch ini adalah tactile dan memilki beragam actual force yaitu 6
 
 ### PCB
 Pcb adalah komponen elektronika yang ada pada mechanical keyboard, berisi komponen ic yang berfungsi sebagai otak dari mechanical keyboard tersebut
+
 ![Contoh PCB](/assets/images/pcb.png){:class="img-responsive"}
 
 ### Plate
 Plate adalah komponen untuk menempatkan switch diatas pcb, biasanya plate ini ada yang berbahan stainless steel, ada juga yang berbahan brass plate dimana yang berbahan brass ini lebih berat daripada bahan stainless
+
 ![Contoh Plate](/assets/images/plate.png){:class="img-responsive"}
 
 ### Case
