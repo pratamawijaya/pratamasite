@@ -47,7 +47,7 @@ Switch cherry dengan karakteristik tactile bump dengan actuation force 45g
 #### Cherry Mx Clear
 Switch cherry dengan karakteristik tactile bump dengan actuation force 65g
 
-![Cherry Mx Clear](http://www.wasdkeyboards.com/media/guide/graph-mx-clear.jpg)
+![Cherry Mx Clear](http://www.wasdkeyboards.com/media/guide/cherry-mx-clear.jpg)
 
 #### Cherry Mx Black
 Switch cherry dengan karakteristik linear dengan actuation force 60g
@@ -99,3 +99,29 @@ Tidak semua keycap mechanical keyboard itu mahal, masih ada yang memiliki harga 
 ![Taihao Cubic](http://www.tai-hao.com/upload/catalog_b/2f4559e8c2c11de9b8c8c639fd93da43.jpg) 
 
 contoh keycap diatas bisa didapatkan dengan harga dibawah 500rbu IDR
+
+## Formfactor atau bentuk
+Selain komponen hal yang menarik dibahas adalah bentuk atau formfactor dari sebuah mechanical keyboard, mulai dari full, TKL (Ten Key Less), 75%, 60% 40% 
+
+### Fullkeyboard
+contoh full keyboard adalah seperti dibawah ini, dengan numpad dan tombol function arrow
+
+![fullform](https://mechanicalkeyboards.com/shop/images/products/large_2114_RF1.jpg)
+
+### 75% Keyboard
+75% keyboard adalah keyboard mechanical dengan bentuk numpad yang dihilangkan menyisakan bagian alphabet, function, arrow
+
+![75 keyboard](/assets/images/75keyboard.jpg){:class="img-responsive"}
+
+
+### 60% Keyboard
+60% keyboard adalah compact size keyboard dengan pengurangan bagian numpad dan function (f1-10) dan ada juga yang sampai menghilangkan arrow function, contoh
+
+![60 key without arrow](https://massdrop-s3.imgix.net/product-images/gmk-3run-keycap-set/MD-28806_20161017113614_de56d2766d92ed2f.jpg?auto=format&fm=jpg&fit=crop&w=955&dpr=1)
+
+![60 key with arrow](https://massdrop-s3.imgix.net/product-images/gh60-xd64-mechanical-keyboard-kit/363A1304%20copy_20170505114428.jpg?auto=format&fm=jpg&fit=crop&w=955&dpr=1)
+
+### 40% keyboard
+40% keyboard adalah keyboard yang lebih compact dan kecil daripada 60% dimana tombol angka dihilangkan menyisakan alphabet dan bottom row seperti space dll
+
+![40% keyboard](https://www.extremetech.com/wp-content/uploads/2016/12/MD-26055_20160823140932_ea396a26bf42b12c.jpg)
