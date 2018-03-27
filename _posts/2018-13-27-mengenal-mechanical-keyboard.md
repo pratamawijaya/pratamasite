@@ -2,7 +2,7 @@
 layout: single
 title:  "Mengenal Mechanical Keyboard"
 date:   2018-03-27 12:30:21 +0700
-excerpt: "Belajar React Native Part 1 Dokumentasi belajar react-native"
+excerpt: "Apa itu mechanical keyboard, apa perbedaan mechanical keyboard dengan keyboard biasa, apa saja komponen mechanical keyboard"
 categories: 
     - Blog
 tags : 
