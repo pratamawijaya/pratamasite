@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Menikmat sate taichan jogja"
-date:   2018-03-27 12:30:21 +0700
+date:   2018-03-31 06:05:21 +0700
 excerpt: "Review sate taichan senayan cabang yogyakarta"
 categories: 
     - Blog
