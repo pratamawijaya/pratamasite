@@ -1,8 +1,8 @@
 ---
 layout: single
-title:  "Menikmat sate taichan jogja"
+title:  "Menikmati Sate Taichan Jogja"
 date:   2018-03-31 06:05:21 +0700
-excerpt: "Review sate taichan senayan cabang yogyakarta"
+excerpt: "Review Sate Taichan Senayan cabang Yogyakarta"
 categories: 
     - Blog
 tags : 
