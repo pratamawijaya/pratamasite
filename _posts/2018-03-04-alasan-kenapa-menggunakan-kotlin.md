@@ -189,6 +189,6 @@ val filteredUser = listUser.filter { it.umur >= 15 }.map { "${it.name} user" }
 
 contoh diatas adalah filter data dengan umur >= 15 kemudian outputkan dengan nama user + user
 
-## Kursus Kotlin Android
+## Karena sudah ada Kursus Kotlin Android versi bahasa Indonesia
 
-Buat kalian yang berminat untuk mengambil kelas kursus kotlin android bisa kesini [http://bit.ly/course_kotlin_android](http://bit.ly/course_kotlin_android)
+Buat kalian yang berminat untuk mengambil kelas kursus kotlin android berbahasa Indonesia bisa kesini [http://bit.ly/course_kotlin_android](http://bit.ly/course_kotlin_android)
