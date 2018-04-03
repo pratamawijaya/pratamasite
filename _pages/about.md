@@ -17,4 +17,4 @@ Software Developer yang berfokus di **mobile apps development** berlokasi di Yog
 
 ## Contact
 1. Email com.pratamawijaya@gmail.com
-2. Telegram [t.me/PratamaWijaya](t.me/PratamaWijaya)
+2. Telegram [t.me/PratamaWijaya](https://t.me/PratamaWijaya)
