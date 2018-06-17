@@ -154,3 +154,5 @@ pada library tersebut kita perlu implement listener, sebagaimana pada config seb
 ```
 
 kode lengkap sample projek diatas dapat diunduh di url berikut https://github.com/pratamawijaya/google-maps-direction-sample
+
+sekian artikel mengenai bagaimana menghitung dua jarak menggunakan google maps dan google direcion, sekian dan terimakasih
