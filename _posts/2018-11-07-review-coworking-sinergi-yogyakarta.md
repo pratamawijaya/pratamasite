@@ -51,3 +51,4 @@ Jangan khawatir bagi kalian yang suka ngopi di Sinergi ini juga menjual kopi dan
 ![Sinergi](/assets/images/sinergi/Sinergi_coworking_6.jpg){:class="img-responsive"}
 
 
+Kesimpulannya Sinergi merupakan salah satu coworking space yang saya rekomendasikan bagi kalian yang ingin bekerja secara remote di area Yogyakarta, sekian review saya mengenai Sinergi Coworking Space, sekian dan terimakasih.
