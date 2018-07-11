@@ -6,6 +6,7 @@ excerpt: "Tutorial dasar android, setup retrofit dengan bahasa kotlin di android
 categories: 
     - Programming
 tags : 
+    - tutorial-android
     - kotlin
     - android
     - retrofit
@@ -13,7 +14,7 @@ tags :
     - api
 ---
 
-Pada kesempatan kali ini saya akan membahas bagaimana caranya menggunakan retrofit sebagai http client dengan menggunakan kotlin sebagai bahasa pemrograman di android, pertama yang harus dilakukan adalah menambahkan dependency retrofit pada project android anda, tambahkan code berikut pada file app/build.gradle
+Pada kesempatan kali ini saya akan membahas **tutorial android** bagaimana caranya menggunakan retrofit sebagai http client dengan menggunakan kotlin sebagai bahasa pemrograman di android, pertama yang harus dilakukan adalah menambahkan dependency retrofit pada project android anda, tambahkan code berikut pada file app/build.gradle
 
 ```
  implementation "com.squareup.retrofit2:retrofit:2.4.0"

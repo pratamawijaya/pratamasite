@@ -6,13 +6,14 @@ excerpt: "Belajar menggunakan google maps dan menghitung jarak antar dua titik m
 categories: 
     - Programming
 tags : 
+    - tutorial-android
     - programming
     - android
     - google-maps
     - google-direction
 ---
 
-Pada kesempatan kali ini saya membahas mengenai bagaimana cara menghitung jarak antar 2 titik dan menampilkannya kedalam google maps, aplikasi ini saya buat sesimple mungkin dengan menggunakan google maps untuk menampilkan mapsnya, 
+Pada kesempatan kali ini saya membahas **tutorial android** mengenai bagaimana cara menghitung jarak antar 2 titik dan menampilkannya kedalam google maps, aplikasi ini saya buat sesimple mungkin dengan menggunakan google maps untuk menampilkan mapsnya, 
 
 Tahapan pertama adalah membuat activity google maps
 cara membuat activity google maps pada android studio adalah dengan klik kanan pada nama package aplikasi anda, lalu pilih new > Google > Google Maps Activity
