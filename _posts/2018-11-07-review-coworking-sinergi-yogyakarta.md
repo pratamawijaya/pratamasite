@@ -13,7 +13,7 @@ tags :
 Kali ini artikel saya akan membahas mengenai coworking space yang tahun ini banyak bermunculan di Yogyakarta, apa itu coworking space ? adalah sebuah tempat dimana para individu - individu yang memiliki latar belakang pekerjaan ataupun bisnis bekerja dalam sebuah tempat. Asal dari definisi coworking space itu sendiri adalah berasal dari kata 'Coworking' yang bisa diartikan kerja sama atau berkolaborasi.
 
 
-Sinergi Coworking Space
+**Sinergi Coworking Space**
 
 ![Sinergi](/assets/images/sinergi/Sinergi_coworking_3.jpg){:class="img-responsive"}
 
