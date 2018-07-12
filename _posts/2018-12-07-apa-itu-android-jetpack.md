@@ -15,7 +15,7 @@ Pada pagelaran Google IO tahun 2018 ini, google kembali mengenalkan istilah baru
 
 ![Android jetpack](/assets/images/jetpack/android_jetpack_1.png){:class="img-responsive"}
 
-Sebenarnya android jetpack itu apa ? pada situs halamannya [link](https://developer.android.com/jetpack/) jetpack dijelaskan bahwasannya Jetpack merupakan kumpulan library, tools, dan panduan arsitektur untuk memudahkan dalam pengembangan aplikasi android.
+Sebenarnya android jetpack itu apa ? pada situs halamannya [link](https://developer.android.com/jetpack/) android jetpack dijelaskan bahwasannya Android Jetpack merupakan kumpulan library, tools, dan panduan arsitektur untuk memudahkan dalam pengembangan aplikasi android.
 
 ![Android jetpack](/assets/images/jetpack/android_jetpack_2.png){:class="img-responsive"}
 
@@ -42,10 +42,10 @@ selanjutnya android studio akan membuat 3 buah file class seperti ini
 
 saya akan coba jelaskan maksud dari class2 ini: 
 
-- MainActivity : class utama dimana activity ini adalah activity yang pertama kali dipanggil oleh app, sebut saja activity ini adalah entry point aplikasi kalian
-- MainFragment : class fragment yang mengurusi tampilan aplikasi kalian, misal mau menambah button ataupun text, ditambahkan dan dihandle melalui class ini
-- MainViewModel : class untuk handling logic aplikasi kalian, jadi dengan menggunakan Android Jetpack ini kita **dipaksa** untuk menerapkan architecture MVVM (Model View View Model)
+- **MainActivity** : class utama dimana activity ini adalah activity yang pertama kali dipanggil oleh app, sebut saja activity ini adalah entry point aplikasi kalian
+- **MainFragment** : class fragment yang mengurusi tampilan aplikasi kalian, misal mau menambah button ataupun text, ditambahkan dan dihandle melalui class ini
+- **MainViewModel** : class untuk handling logic aplikasi kalian, jadi dengan menggunakan Android Jetpack ini kita **dipaksa** untuk menerapkan architecture MVVM (Model View View Model)
 
 Lain kali akan saya coba buatkan artikel mengenai architecture mvvm ini, mohon ditunggu,
-sekian artikel mengenai Android Jetpack kali ini, sekian dan terimakasih.
+sekian artikel mengenai **Android Jetpack** kali ini, sekian dan terimakasih.
 
