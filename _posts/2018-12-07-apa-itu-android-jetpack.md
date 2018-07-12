@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Tutorial Android : Mengenal Android Jetpack"
-date:   2018-07-11 15:00:00 +0700
+date:   2018-07-12 15:00:00 +0700
 excerpt: "Apa itu android jetpack ? mari mengenal android jetpack melalui artikel ini"
 categories: 
     - Programming
