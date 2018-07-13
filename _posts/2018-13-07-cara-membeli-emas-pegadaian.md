@@ -1,13 +1,14 @@
 ---
 layout: single
 title:  "Cara Membeli Emas Lewat Pegadaian"
-date:   2018-07-12 15:00:00 +0700
+date:   2018-07-13 08:00:00 +0700
 excerpt: "Cara Menabung emas dan membeli emas lewat pegadaian"
 categories: 
     - blog
 tags : 
 	- emas
 	- investasi
+	- tabungan
 ---
 
 Halo, pada kesempatan kali ini saya akan share bagaimana cara membeli emas dengan mudah melalui pegadaian, sebelum masuk ke intinya, kenapa lewat pegadaian ? kenapa gak beli langsung lewat toko emas ? alasannya adalah :
