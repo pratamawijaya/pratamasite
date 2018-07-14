@@ -6,9 +6,7 @@ excerpt: "Cara Menabung emas dan membeli emas lewat pegadaian"
 categories: 
     - blog
 tags : 
-	- emas
-	- investasi
-	- tabungan
+    - emas
 ---
 
 Halo, pada kesempatan kali ini saya akan share bagaimana cara membeli emas dengan mudah melalui pegadaian, sebelum masuk ke intinya, kenapa lewat pegadaian ? kenapa gak beli langsung lewat toko emas ? alasannya adalah :
@@ -41,5 +39,28 @@ jika sukses maka sistem akan memberikan notifikasi ke kita, dan selain versi web
 
 Selain itu untuk memudahkan update harga emas juga bisa menggunakan aplikasi [Update Harga Emas Antam](http://bit.ly/updatehargaemasantam) berikut ini, setiap hari kerja akan update harga emas.
 
+Selamat menabung emas.
+Selamat menabung emas.
+Selamat menabung emas.
+Selamat menabung emas.
+Selamat menabung emas.
+Selamat menabung emas.
+Selamat menabung emas.
+Selamat menabung emas.
+Selamat menabung emas.
+Selamat menabung emas.
+Selamat menabung emas.
+Selamat menabung emas.
+Selamat menabung emas.
+Selamat menabung emas.
+Selamat menabung emas.
+Selamat menabung emas.
+Selamat menabung emas.
+Selamat menabung emas.
+Selamat menabung emas.
+Selamat menabung emas.
+Selamat menabung emas.
+Selamat menabung emas.
+Selamat menabung emas.
 Selamat menabung emas.
 
