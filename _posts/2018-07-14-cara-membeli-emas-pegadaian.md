@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Cara Membeli Emas Lewat Pegadaian"
-date:   2018-07-13 08:00:00 +0700
+date:   2018-07-14 06:00:00 +0700
 excerpt: "Cara Menabung emas dan membeli emas lewat pegadaian"
 categories: 
     - blog
