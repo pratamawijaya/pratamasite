@@ -165,4 +165,71 @@ hasil akhirnya ketika dirunning akan seperti ini
 
 ![Android RecyclerView](/assets/images/recyclerview/rv_1.png){:class="img-responsive"}
 
+lalu misalkan kita mau menampilkan gambar di tiap item hero, kita bisa mengubah item layoutnya menjadi seperti ini
+
+**item_hero.xml**
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imgHeroes"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/txtHeroName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"/>
+
+</LinearLayout>
+```
+
+lalu tambahkan url gambar untuk tiap hero,
+
+```java
+val listHeroes = listOf(
+                Hero(name = "Spider-Man", image = "https://i.annihil.us/u/prod/marvel/i/mg/9/30/538cd33e15ab7/standard_xlarge.jpg"),
+                Hero(name = "Black Panther", image = "https://i.annihil.us/u/prod/marvel/i/mg/1/c0/537ba2bfd6bab/standard_xlarge.jpg"),
+                Hero(name = "Iron Man", image = "https://i.annihil.us/u/prod/marvel/i/mg/6/a0/55b6a25e654e6/standard_xlarge.jpg")
+        )
+```
+
+agar dapat menampilkan gambar via url, butuh library tambahan yakni **Picasso**
+tambahkan dependency picasso ke app/build.gradle
+
+```
+implementation 'com.squareup.picasso:picasso:2.71828'
+```
+
+jangan lupa tambah permission internet ke AndroidManifest.xml
+
+selanjutnya picasso akan digunakan di class HeroHolder, ubah menjadi seperti ini
+
+```java
+class HeroHolder(view: View) : RecyclerView.ViewHolder(view) {
+    private val tvHeroName = view.txtHeroName
+    private val imgHero = view.imgHeroes
+
+    fun bindHero(hero: Hero) {
+        tvHeroName.text = hero.name
+        Picasso.get().load(hero.image).into(imgHero)
+    }
+}
+```
+
+maka hasil akhirnya akan menjadi seperti ini
+
+![Android RecyclerView](/assets/images/recyclerview/rv_2.png){:class="img-responsive"}
+
+Sekian tutorial singkat bagaimana cara menggunakan recyclerview dengan meggunakan kotlin sebagai bahasa pemrograman, semoga bermanfaat.
+
 
