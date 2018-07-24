@@ -25,9 +25,9 @@ rvMain.apply {
         }
 
 ```
-this@MainActivity : digunakan untuk mengambil context app
-LinearLayoutManager.HORIZONTAL: untuk menetukan orientasi menjadi horizontal
-false : parameter untuk menentukan apakah data perlu dibalik(reverse) atau tidak
+- this@MainActivity : digunakan untuk mengambil context app
+- LinearLayoutManager.HORIZONTAL: untuk menetukan orientasi menjadi horizontal
+- false : parameter untuk menentukan apakah data perlu dibalik(reverse) atau tidak
 
 setelah dijalankan akan menjadi seperti ini
 
