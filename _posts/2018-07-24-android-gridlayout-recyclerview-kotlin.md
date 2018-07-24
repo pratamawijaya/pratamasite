@@ -12,7 +12,7 @@ tags :
     - recyclerview
 ---
 
-Pada post sebelumnya telah saya bahas bagaimana membuat recyclerview dengan bahasa kotlin, kali ini saya akan bahas bagaimana jika kita butuh tampilan recylerview tersebut berbentuk grid ? jawabannya tinggal ubah bagian **layoutmanager** nya, 
+Pada post [sebelumnya](https://pratamawijaya.com/programming/android-recyclerview-kotlin/) telah saya bahas bagaimana membuat recyclerview dengan bahasa kotlin, kali ini saya akan bahas bagaimana jika kita butuh tampilan recylerview tersebut berbentuk grid ? jawabannya tinggal ubah bagian **layoutmanager** nya, 
 
 salah satu kelebihan recyclerview dibanding listview adalah fleksibel dalam menentukan layout manager,
 
