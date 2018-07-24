@@ -230,6 +230,8 @@ maka hasil akhirnya akan menjadi seperti ini
 
 ![Android RecyclerView](/assets/images/recyclerview/rv_2.png){:class="img-responsive"}
 
+contoh kode dapat ditemukan di https://github.com/pratamawijaya/SimpleRecyclerviewKotlin
+
 Sekian tutorial singkat bagaimana cara menggunakan recyclerview dengan meggunakan kotlin sebagai bahasa pemrograman, semoga bermanfaat.
 
 
