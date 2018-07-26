@@ -21,7 +21,7 @@ Setelah pada artikel-artikel sebelumnya kita belajar membuat [recyclerview di an
 
 Salah satu cara agar ketika membuat recyclerview lebih simple dan cepat adalah dengan menggunakan library, salah satunya adalah [Groupie](https://github.com/lisawray/groupie).
 
-Groupie adalah library yang membantuk untuk menghandle recyclerview yang kompleks, cara menggunakan library ini, langkah2nya adalah :
+Groupie adalah library yang membantu kita untuk menghandle recyclerview yang kompleks, cara menggunakan library ini, langkah2nya adalah :
 
 ## Menambahkan Dependency
 
@@ -62,7 +62,8 @@ class HeroItem(private val hero: Hero) : Item() {
 }
 ```
 
-method **getLayout** ini adalah layout apa yang akan digunakan untuk tiap itemnya
+method **getLayout** ini adalah layout apa yang akan digunakan untuk tiap itemnya,
+lalu method bind ini adalah dimana kalian dapat meng-set value ke tiap-tiap itemnya
 
 ## Set adapter ke Recyclerview
 
