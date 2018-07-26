@@ -137,4 +137,6 @@ yang saya bedakan disini adalah layoutnya, untuk second item ini LinearLayout or
 
 ![Android RecyclerView](/assets/images/recyclerview/rv_6.png){:class="img-responsive"}
 
-untuk item dengan nama awal "D" maka akan menggunakan item dengan layout orientation horizontal
+untuk item dengan nama awal "D" maka akan menggunakan item dengan layout orientation horizontal, 
+
+kode pada tutorial ini dapat diunduh di [link-github](https://github.com/pratamawijaya/SimpleRecyclerviewKotlin/tree/groupie)
