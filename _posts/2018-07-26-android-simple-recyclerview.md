@@ -12,7 +12,7 @@ tags :
     - recyclerview
 ---
 
-Setelah pada artikel-artikel sebelumnya kita belajar membuat recyclerview di android, kali ini saya akan membahas bagaimana cara membuat recyclerview lebih simple dan cepat, cepat disini maksudnya adalah proses membuatnya tidak lama, kenapa saya bilang lama ? karena untuk membuat sebuah recyclerview kita melalui beberapa tahapan sebagai berikut :
+Setelah pada artikel-artikel sebelumnya kita belajar membuat [recyclerview di android](https://pratamawijaya.com/programming/android-recyclerview-kotlin/), kali ini saya akan membahas bagaimana cara membuat recyclerview lebih simple dan cepat, cepat disini maksudnya adalah proses membuatnya tidak lama, kenapa saya bilang lama ? karena untuk membuat sebuah recyclerview kita melalui beberapa tahapan sebagai berikut :
 
 - membuat recyclerview
 - membuat adapter
