@@ -494,3 +494,7 @@ hasil akhirnya akan seperti berikut ini
 <video width="480" height="320" controls="controls">
   <source src="/assets/images/recyclerview/rv_bukalapak_video_2.mp4" type="video/mp4">
 </video>
+
+untuk source code code diatas bisa diakses ke https://github.com/pratamawijaya/SimpleRecyclerviewKotlin/tree/homepage
+
+jangan lupa share, dan semoga bermanfaat
