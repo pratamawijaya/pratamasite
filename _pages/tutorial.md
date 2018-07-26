@@ -6,6 +6,7 @@ comments: false
 ---
 
 ## Kumpulan Tutorial Android Studio
+Kumpulan tutorial programming android menggunakan IDE android studio dan bahasa pemrograman Kotlin
 
 - [Apa itu Jetpack](https://pratamawijaya.com/programming/apa-itu-android-jetpack/)
 
