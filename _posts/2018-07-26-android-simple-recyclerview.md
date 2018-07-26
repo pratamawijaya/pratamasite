@@ -114,7 +114,7 @@ class MainActivity : AppCompatActivity(), HeroListener {
 
 ```
 
-![Android RecyclerView](/assets/images/recyclerview/rv_6.png){:class="img-responsive"}
+![Android RecyclerView](/assets/images/recyclerview/rv_7.png){:class="img-responsive"}
 
 kode diatas adalah kode yang saya gunakan di artikel [sebelumnya](https://pratamawijaya.com/programming/android-recyclerview-kotlin/),
 kuncinya untuk memasukkan tiap item ke recyclerview adalah pada kode

@@ -135,18 +135,18 @@ type TaskCollection struct {
 func GetTasks(db *sql.DB) TaskCollection {
 	sql := "SELECT * FROM tasks"
 	rows, err := db.Query(sql)
-	// Exit if the SQL doesn't work for some reason
+	// Exit jika terjadi error
 	if err != nil {
 		panic(err)
 	}
-	// make sure to cleanup when the program exits
+	// clean rows
 	defer rows.Close()
 
 	result := TaskCollection{}
 	for rows.Next() {
 		task := Task{}
 		err2 := rows.Scan(&task.ID, &task.Name, &task.Status)
-		// Exit if we get an error
+		// Exit jika error
 		if err2 != nil {
 			panic(err2)
 		}
@@ -158,18 +158,17 @@ func GetTasks(db *sql.DB) TaskCollection {
 func PutTask(db *sql.DB, name string, status int) (int64, error) {
 	sql := "INSERT INTO tasks(name, status) VALUES(?,?)"
 
-	// Create a prepared SQL statement
+	// membuat prepared SQL statement
 	stmt, err := db.Prepare(sql)
-	// Exit if we get an error
+	// Exit jika error
 	if err != nil {
 		panic(err)
 	}
-	// Make sure to cleanup after the program exits
+	// memastikan statement ditutup setelah selesai
 	defer stmt.Close()
 
-	// Replace the '?' in our prepared statement with 'name'
 	result, err2 := stmt.Exec(name, status)
-	// Exit if we get an error
+	// Exit jika error
 	if err2 != nil {
 		panic(err2)
 	}
@@ -198,16 +197,15 @@ func EditTask(db *sql.DB, taskId int, name string, status int) (int64, error) {
 func DeleteTask(db *sql.DB, id int) (int64, error) {
 	sql := "DELETE FROM tasks WHERE id = ?"
 
-	// Create a prepared SQL statement
+	// buat prepare statement
 	stmt, err := db.Prepare(sql)
-	// Exit if we get an error
+	// Exit jika error
 	if err != nil {
 		panic(err)
 	}
 
-	// Replace the '?' in our prepared statement with 'id'
 	result, err2 := stmt.Exec(id)
-	// Exit if we get an error
+	// Exit jika error
 	if err2 != nil {
 		panic(err2)
 	}
@@ -295,3 +293,35 @@ func DeleteTask(db *sql.DB) echo.HandlerFunc {
 }
 
 ```
+
+struktur aplikasinya akan seperti berikut ini
+
+![Webservices CRUD](/assets/images/golang/golang.png){:class="img-responsive"}
+
+untuk menjalankannya bisa menggunakan perintah
+
+```
+go run app.go
+```
+
+![Webservices CRUD](/assets/images/golang/golang_run.png){:class="img-responsive"}
+
+untuk testing fungsionalitas bisa menggunakan postman ataupun curl
+
+Tes api GET untuk **Read**
+
+![Webservices CRUD](/assets/images/golang/golang_get.png){:class="img-responsive"}
+
+Tes api POST untuk **Create**
+
+![Webservices CRUD](/assets/images/golang/golang_post.png){:class="img-responsive"}
+
+Tes api PUT untuk **Update**
+
+![Webservices CRUD](/assets/images/golang/golang_put.png){:class="img-responsive"}
+
+Tes api DELETE untuk **Delete**
+
+![Webservices CRUD](/assets/images/golang/golang_delete.png){:class="img-responsive"}
+
+untuk repo nya bisa dicek di [link](https://github.com/pratamawijaya/simplecrudgolang)
