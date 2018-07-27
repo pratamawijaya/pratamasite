@@ -114,7 +114,7 @@ class MainActivity : AppCompatActivity(), HeroListener {
 
 ```
 
-![Android RecyclerView](/assets/images/recyclerview/rv_7.png){:class="img-responsive"}
+![Android RecyclerView](/assets/images/recyclerview/rv_6.png){:class="img-responsive"}
 
 kode diatas adalah kode yang saya gunakan di artikel [sebelumnya](https://pratamawijaya.com/programming/android-recyclerview-kotlin/),
 kuncinya untuk memasukkan tiap item ke recyclerview adalah pada kode
@@ -136,7 +136,7 @@ class HeroSecondItem(private val hero: Hero) : Item() {
 
 yang saya bedakan disini adalah layoutnya, untuk second item ini LinearLayout orientation saya ubah menjadi horizontal, hasilnya adalah
 
-![Android RecyclerView](/assets/images/recyclerview/rv_6.png){:class="img-responsive"}
+![Android RecyclerView](/assets/images/recyclerview/rv_7.png){:class="img-responsive"}
 
 untuk item dengan nama awal "D" maka akan menggunakan item dengan layout orientation horizontal, 
 
