@@ -24,7 +24,7 @@ Untuk kode yang saya gunakan, saya masih menggunakan kode pada artikel sebelumny
 
 - viewpager (gambar yang dapat berpindah)
 - viewpagerindicator (yang berbentuk bulat2 kecil bagian kiri bawah)
-- sebuat button kecil ada pada bagian kanan
+- sebuah button kecil ada pada bagian kanan
 
 ## Persiapan layout
 
@@ -179,7 +179,7 @@ class BannerFragment : Fragment() {
 
 ```
 
-fungsin fragment ini adalah untuk menampilkan view/gambar promo banner yang akan kita passing melalui banner adapter, untuk layoutnya sendiri seperti ini
+fungsi fragment ini adalah untuk menampilkan view/gambar promo banner yang akan kita passing melalui banner adapter, untuk layoutnya sendiri seperti ini
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
