@@ -1,3 +1,11 @@
+---
+title : "Privacy Policy"
+permalink : /privacy/
+layout: single
+comments: false
+---
+
+
 ## Privacy Policy
 
 pnwbox built the Harga Emas Logam Mulia Antam app as a Free app. This SERVICE is provided by pnwbox at no cost and is intended for use as is.
