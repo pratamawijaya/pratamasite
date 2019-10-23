@@ -12,7 +12,7 @@ tags :
 
 Pada artikel kali ini saya akan membahas bagaimana cara solving masalah adb no permission pada sistem operasi linux, contoh pada gambar dibawah ini, saat saya mencoba menjalankan perintah `adb devices` ternyata tidak berjalan dengan bagaimana semestinya.
 
-![Adb No Permission](/assets/images/adb_error/adb_no_permisson_1.png){:class="img-responsive"}
+![Adb No Permission](/assets/images/adb_error/adb_no_permission_1.png){:class="img-responsive"}
 
 Berbekal hasil [googling](https://stackoverflow.com/questions/53887322/adb-devices-no-permissions-user-in-plugdev-group-are-your-udev-rules-wrong) akhirnya mendapatkan solusi, dari solusi itu saya coba tulis ulang dalam bahasa indonesia untuk keperluan dokumentasi dimasa mendatang.
 
