@@ -1,10 +1,10 @@
 ---
 layout: single
 title:  "Coroutines : Apa itu coroutines ?"
-date:   2019-12-12 19:00:00 +0700
+date:   2019-12-12 09:00:00 +0700
 excerpt: "Mengenal coroutines pada pemrograman dengan bahasa kotlin"
 categories: 
-    - Linux
+    - android
 tags : 
     - android
     - programming
