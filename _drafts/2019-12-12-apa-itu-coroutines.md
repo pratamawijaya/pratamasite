@@ -8,6 +8,8 @@ categories:
 tags : 
     - android
     - programming
+    - kotlin
+    - coroutine
 ---
 
 Pada kesempatan kali ini saya akan membahas mengenai **coroutines**, apa itu Coroutines ? Coroutines adalah pattern atau salah satu cara untuk mengatasi masalah *concurrency* atau *async* programming, Kotlin teams sendiri menyebut coroutines adalah *lightweight thread*, jadi coroutines ini mirip *thread* tapi ada perbedaannya, persamaan antara coroutines dan thread adalah :
@@ -31,8 +33,10 @@ Kotlin menggunakan coroutines yang berjenis *stackless*.
 
 Pada android coroutines dapat digunakan untuk mengatasi 2 problem utama :
 
-..* Menghandle *heavy task* yang dapat menghalangi main thread sehingga mengakibatkan aplikasi lagging
-..* Memberikan keamanan ketika memanggil *heavy task* dari *main thread*  contoh : networking, write ke database
+- Menghandle *heavy task* yang dapat menghalangi main thread sehingga mengakibatkan aplikasi lagging
+- Memberikan keamanan ketika memanggil *heavy task* dari *main thread*  contoh : networking, write ke database
+
+# Contoh Coroutine
 
 <iframe src="https://pl.kotl.in/kzb9kadm-" width="500"></iframe>
 
@@ -42,3 +46,15 @@ Diatas adalah contoh kode kotlin yang menggunakan *coroutines*, jika kode terseb
 Halooo
 Dunia . . .
 ```
+
+Pada contoh diatas, pada kode `1` saya menggunakan `GlobalScope.launch` apakah ini ? untuk menjalankan coroutine dibutuhkan [Coroutine Scope](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/coroutine-scope.html) dan pada contoh diatas saya menggunakan `GlobalScope` yang berarti lifecycle coroutinenya mengikuti lifecycle seluruh aplikasi.
+
+pada no `2` saya memanggil `suspending function` untuk melakukan delay selama 2sec, pada no `3` saya outputkan text, jika program dijalankan maka yang akan muncul pertama kali adalah kode no `4` hal ini karena kode 1 dijalankan pada coroutine, apabila kita tidak menuliskan Thread.sleep(2000) yang mana maksudnya adalah untuk mempause thread selama 2 sec, maka program tidak akan pernah menampilkan kata `Dunia . . .`
+
+<iframe src="https://pl.kotl.in/nkYEw9175" width="500"></iframe>
+
+Terdapat 2 cara untuk menjalankan coroutine :
+- dengan fungsi `launch {}`
+- dengan fungsi `async {}`
+
+perbedaan launch dan async adalah, `launch` tidak mengembalikan data sedangkan `async` akan mengembalikan object dari `Deffered<T>` yang mana akan memiliki fungsi `await()`
