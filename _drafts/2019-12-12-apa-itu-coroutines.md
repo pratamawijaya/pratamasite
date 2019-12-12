@@ -17,7 +17,7 @@ Pada android coroutines dapat digunakan untuk mengatasi 2 problem utama :
 ..* Menghandle *heavy task* yang dapat menghalangi main thread sehingga mengakibatkan aplikasi lagging
 ..* Memberikan keamanan ketika memanggil *heavy task* dari *main thread*  contoh : networking, write ke database
 
-<iframe src="https://pl.kotl.in/oWd7XfUy4" width="500"></iframe>
+<iframe src="https://pl.kotl.in/kzb9kadm-" width="500"></iframe>
 
 Diatas adalah contoh kode kotlin yang menggunakan *coroutines*, jika kode tersebut dijalankan maka akan menghasilkan sebagai berikut :
 
