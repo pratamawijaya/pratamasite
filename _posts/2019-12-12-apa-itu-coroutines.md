@@ -15,4 +15,4 @@ Pada kesempatan kali ini saya akan membahas mengenai **Coroutines**, apa itu Cor
 ..* Menghandle *heavy task* yang dapat menghalangi main thread sehingga mengakibatkan aplikasi lagging
 ..* Memberikan keamanan ketika memanggil *heavy task* dari *main thread*  contoh : networking, write ke database
 
-<iframe src="https://pl.kotl.in/oWd7XfUy4"></iframe>
+<iframe src="https://pl.kotl.in/oWd7XfUy4" width="500"></iframe>
