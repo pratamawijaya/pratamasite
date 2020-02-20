@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Apa itu Coroutines ?"
+title:  "Apa itu Kotlin Coroutines ?"
 date:   2020-02-20 09:00:00 +0700
 excerpt: "Mengenal Coroutines pada pemrograman dengan bahasa kotlin"
 categories: 
