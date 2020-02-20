@@ -29,7 +29,7 @@ Coroutines tidak hanya ada pada bahasa pemrograman kotlin, namun juga ada dibaha
 - Stackless
 - Stackfull
   
-Kotlin menggunakan coroutines yang berjenis *stackless*.
+Kotlin menggunakan coroutines yang berjenis *stackless*. [link terkait stackless & stackfull](https://blog.varunramesh.net/posts/stackless-vs-stackful-coroutines/) [link](https://stackoverflow.com/questions/28977302/how-do-stackless-coroutines-differ-from-stackful-coroutines)
 
 Pada android coroutines dapat digunakan untuk mengatasi 2 problem utama :
 
