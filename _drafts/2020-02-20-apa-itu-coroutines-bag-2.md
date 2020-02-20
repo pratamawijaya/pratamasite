@@ -2,7 +2,7 @@
 layout: single
 title:  "Apa itu Coroutines ? Bagian 2"
 date:   2020-02-20 12:00:00 +0700
-excerpt: "Mengenal Coroutines pada pemrograman dengan bahasa kotlin"
+excerpt: "Mengenal Coroutines bagian 2, membahas mengenai Coroutines Builder"
 categories: 
     - android
 tags : 
