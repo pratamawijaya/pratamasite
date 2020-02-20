@@ -15,10 +15,10 @@ tags :
 Pada artikel ini saya akan menulis tentang **Coroutines**, apa itu Coroutines ?  Coroutines adalah cara untuk mengatasi masalah *concurrency* atau *async* programming, penjelasan simplenya mengupbah pemanggilan async code menjadi seperti sync code, contoh seperti ini
 
 **Retrofit**
-![Retrofit](/assets/images/coroutines/retrofit_async){:class="img-responsive"}
+![Retrofit](/assets/images/coroutines/retrofit_async.png){:class="img-responsive"}
 
 **Retrofit + Coroutines**
-![Retrofit](/assets/images/coroutines/coroutine_sync){:class="img-responsive"}
+![Retrofit](/assets/images/coroutines/coroutine_sync.png){:class="img-responsive"}
 
  Kotlin teams sendiri menyebut coroutines adalah *lightweight thread*, jadi coroutines ini mirip *thread* tapi ada perbedaannya, persamaan antara coroutines dan thread adalah :
 
