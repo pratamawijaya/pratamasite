@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Apa itu Coroutines ?"
-date:   2019-12-12 09:00:00 +0700
+date:   2020-02-20 09:00:00 +0700
 excerpt: "Mengenal Coroutines pada pemrograman dengan bahasa kotlin"
 categories: 
     - android
@@ -64,11 +64,3 @@ pada no `2` saya memanggil `suspending function` untuk melakukan delay selama 2s
 <iframe src="https://pl.kotl.in/nkYEw9175" width="500"></iframe>
 
 **Bersambung**
-
-Selanjutnya akan membahas bagaimana cara menjalankan coroutines..
-
-Terdapat 2 cara untuk menjalankan coroutine :
-- dengan fungsi `launch {}`
-- dengan fungsi `async {}`
-
-perbedaan launch dan async adalah, `launch` tidak mengembalikan data sedangkan `async` akan mengembalikan object dari `Deffered<T>` yang mana akan memiliki fungsi `await()`
