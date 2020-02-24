@@ -64,3 +64,5 @@ pada no `2` saya memanggil `suspending function` untuk melakukan delay selama 2s
 <iframe src="https://pl.kotl.in/nkYEw9175" width="500"></iframe>
 
 **Bersambung**
+
+[Apa itu coroutines bagian 2](https://pratamawijaya.com/android/apa-itu-coroutines-bag-2/)
