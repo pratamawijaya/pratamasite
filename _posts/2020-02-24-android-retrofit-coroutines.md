@@ -12,6 +12,8 @@ tags :
     - coroutines
 --- 
 
+# Intro
+
 Pada artikel ini saya akan membahas bagaimana caranya menggunakan coroutines dan retrofit secara bersamaan, dengan menggunakan coroutines apa yang kita dapatkan ? kita tidak perlu lagi menggunakan **callback** 
 
 sebelum menggunakan coroutines
@@ -19,6 +21,8 @@ sebelum menggunakan coroutines
 
 sesudah menggunakan coroutines
 ![coroutines-retrofit](/assets/images/coroutines/retrofit_coroutines.png){:class="img-responsive"}
+
+# Implementation
 
 Pada contoh ini saya akan coba buat apps sederhana dengan flow diagram sebagai berikut
 
@@ -46,6 +50,8 @@ selanjutnya untuk pemanggilan repositorynya kita perlu memanggilnya didalam buil
 
 withContext(Dispatchers.IO) disini digunakan untuk memastikan bahwa repository.getTodo dijalankan di coroutine dengan context Dispatchers.IO
 
+# Integration ViewModel
+
 lalu bagaimana jika ingin dipanggil melalu **ViewModel** ? pertama perlu implement dependency terlebih dahulu, 
 
 ![coroutines-retrofit](/assets/images/coroutines/viewmodel_dep.png){:class="img-responsive"}
@@ -53,6 +59,12 @@ lalu bagaimana jika ingin dipanggil melalu **ViewModel** ? pertama perlu impleme
 pada library tersebut terdapat builder untuk viewModel, kita tinggal memanggilnya dengan perintah **viewModelScope** otomatis langsung dapat menjalankan coroutines didalam viewmodel
 
 ![coroutines-retrofit](/assets/images/coroutines/viewmodel_scope.png){:class="img-responsive"}
+
+# Error Handling
+
+Untuk error handling coroutines bisa menggunakan try catch, contoh seperti ini
+
+![coroutines-retrofit](/assets/images/coroutines/coroutines_errorhandling.png){:class="img-responsive"}
 
 contoh kode lengkap dapat diakses pada repo berikut [ini](https://github.com/pratamawijaya/SimpleCoroutinesRetrofit)
 
