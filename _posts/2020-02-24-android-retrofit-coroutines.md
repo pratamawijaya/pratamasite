@@ -46,6 +46,14 @@ selanjutnya untuk pemanggilan repositorynya kita perlu memanggilnya didalam buil
 
 withContext(Dispatchers.IO) disini digunakan untuk memastikan bahwa repository.getTodo dijalankan di coroutine dengan context Dispatchers.IO
 
+lalu bagaimana jika ingin dipanggil melalu **ViewModel** ? pertama perlu implement dependency terlebih dahulu, 
+
+![coroutines-retrofit](/assets/images/coroutines/viewmodel_dep.png){:class="img-responsive"}
+
+pada library tersebut terdapat builder untuk viewModel, kita tinggal memanggilnya dengan perintah **viewModelScope** otomatis langsung dapat menjalankan coroutines didalam viewmodel
+
+![coroutines-retrofit](/assets/images/coroutines/viewmodel_scope.png){:class="img-responsive"}
+
 contoh kode lengkap dapat diakses pada repo berikut [ini](https://github.com/pratamawijaya/SimpleCoroutinesRetrofit)
 
 
