@@ -118,3 +118,104 @@ kita bisa akses seperti ini
 
 ![kotlin-android-extensions-deprecated](/assets/images/kotlin_android_extensions/kotlin_android_extensions_deprecated_6.png){:class="img-responsive"}
 
+
+# Bonus
+
+Akan cukup merepotkan jika setiap membuat activity/fragment lalu harus melakukan ritual setup ViewBinding seperti diatas, maka dari itu kita bisa membuat sebuah `Base Class` yang nantinya bisa kita extends ke class fragment/activity yang kita buat, berikut ini base class yang telah saya buat
+
+## Activity
+
+```kotlin
+abstract class BaseActivityBinding<T : ViewBinding> : AppCompatActivity() {
+
+    private var _binding: ViewBinding? = null
+    abstract val bindingInflater: (LayoutInflater) -> T
+
+    @Suppress("UNCHECKED_CAST")
+    protected val binding: T
+        get() = _binding as T
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        _binding = bindingInflater.invoke(layoutInflater)
+        setContentView(requireNotNull(_binding).root)
+        setupView(binding)
+    }
+
+    abstract fun setupView(binding: T)
+
+    override fun onDestroy() {
+        super.onDestroy()
+        _binding = null
+    }
+
+}
+```
+
+contoh penggunaan
+```Kotlin
+class HomePageActivity : BaseActivityBinding<ActivityHomeBinding>() {
+
+    override val bindingInflater: (LayoutInflater) -> ActivityHomeBinding
+        get() = ActivityHomeBinding::inflate
+
+    override fun setupView(binding: ActivityHomeBinding) {
+            // call view 
+    }
+
+
+}
+```
+
+## Fragment
+
+```Kotlin
+abstract class BaseFragmentBinding<T : ViewBinding> : Fragment() {
+
+    private var _binding: T? = null
+    private val binding get() = _binding!!
+
+    abstract val bindingInflater: (LayoutInflater, ViewGroup?, Boolean) -> T
+
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        _binding = bindingInflater.invoke(inflater, container, false)
+        return requireNotNull(_binding).root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        setupView(binding)
+    }
+
+    abstract fun setupView(binding: T)
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
+}
+```
+
+contoh penggunaan pada fragment
+
+```Kotlin
+class ListNewsFragment : BaseFragmentBinding<FragmentListNewsBinding>() {
+
+    override val bindingInflater: (LayoutInflater, ViewGroup?, Boolean) -> FragmentListNewsBinding =
+        FragmentListNewsBinding::inflate
+
+    override fun setupView(binding: FragmentListNewsBinding) = with(binding) {
+        // setupRecyclerview
+        rvListNews.layoutManager = LinearLayoutManager(requireActivity())
+        rvListNews.adapter = listNewsAdapter
+
+    }
+
+}
+```
+
+Sekian artikel kali ini, semoga bermanfaat
