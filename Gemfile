@@ -1,2 +1,6 @@
 source "https://rubygems.org"
-gemspec
+
+gem "jekyll"
+gem 'jemoji'
+gem "minimal-mistakes-jekyll"
+gem "kramdown-parser-gfm"
