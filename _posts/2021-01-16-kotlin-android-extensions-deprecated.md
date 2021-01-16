@@ -125,7 +125,7 @@ Akan cukup merepotkan jika setiap membuat activity/fragment lalu harus melakukan
 
 ## Activity
 
-```kotlin
+```java
 abstract class BaseActivityBinding<T : ViewBinding> : AppCompatActivity() {
 
     private var _binding: ViewBinding? = null
@@ -153,7 +153,7 @@ abstract class BaseActivityBinding<T : ViewBinding> : AppCompatActivity() {
 ```
 
 contoh penggunaan
-```Kotlin
+```java
 class HomePageActivity : BaseActivityBinding<ActivityHomeBinding>() {
 
     override val bindingInflater: (LayoutInflater) -> ActivityHomeBinding
@@ -169,7 +169,7 @@ class HomePageActivity : BaseActivityBinding<ActivityHomeBinding>() {
 
 ## Fragment
 
-```Kotlin
+```java
 abstract class BaseFragmentBinding<T : ViewBinding> : Fragment() {
 
     private var _binding: T? = null
@@ -202,7 +202,7 @@ abstract class BaseFragmentBinding<T : ViewBinding> : Fragment() {
 
 contoh penggunaan pada fragment
 
-```Kotlin
+```java
 class ListNewsFragment : BaseFragmentBinding<FragmentListNewsBinding>() {
 
     override val bindingInflater: (LayoutInflater, ViewGroup?, Boolean) -> FragmentListNewsBinding =
