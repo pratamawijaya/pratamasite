@@ -23,9 +23,9 @@ Untuk menjalankan coroutines kita membutuhkan **Coroutines Builder** beberapa co
 ## runBlocking
 Builder paling simple yang dapat digunakan namun tidak disarankan untuk digunakan di production code, builder ini akan memblocking thread yang sedang berjalan sampai fungsi coroutines yang ada didalamnya selesai dikerjakan
 
-![online-compiler](https://pl.kotl.in/EE-UcoJSJ)
+[online-compiler](https://pl.kotl.in/EE-UcoJSJ)
 
-```
+```java
 import kotlinx.coroutines.*
 
 fun main() {
@@ -44,8 +44,8 @@ pada contoh diatas ketika program dijalankan akan langsung memuncullkan text "Ha
 ## launch
 Builder satu ini adalah builder yang cocok untuk mengerjakan suatu task secara async, atau lebih dikenal dengan istilah "Fire n Forget", contoh penggunaan builder launch
 
-![online-compiler](https://pl.kotl.in/uG7hvhCQm)
-```
+[online-compiler](https://pl.kotl.in/uG7hvhCQm)
+```java
 import kotlinx.coroutines.*
 
 fun main() {
@@ -68,8 +68,8 @@ program pertama kali akan menjalankan coroutines yang ada didalam builder launch
 ## async
 Builder ini digunakan ketika kita membutuhkan kembalian nilai dari sebuah suspend function, contohnya seperti ini
 
-![online-compiler](https://pl.kotl.in/ezn6cJ8te)
-```
+[online-compiler](https://pl.kotl.in/ezn6cJ8te)
+```java
 import kotlinx.coroutines.*
 
 fun main() {
