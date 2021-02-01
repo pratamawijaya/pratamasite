@@ -17,7 +17,7 @@ Hi semuanya, pada tulisan saya kali ini akan membahas mengenai Mechanical Keyboa
 ## Apa itu mechanical keyboard dan perbedaannya dengan keyboard biasa
 Mechanical keyboard adalah sebuah keyboard yang dibuat dengan kualitas yang tinggi, dan menggunakan mechanical switches untuk setiap tombolnya jadi untuk meregister sebuah huruf user harus menekan switch tersebut.
 
-![Mechanical Switches](http://www.keyboardco.com/blog/wp-content/uploads/2012/10/Blue.gif)
+![Mechanical Switches](assets/images/mechkb/blue_swich.gif)
 
 Rubber dome keyboard adalah jenis keyboard yang sering kita temukan dipasaran dengan harga yang relative terjangkau dibandingkan mechanical keyboard, untuk mekanisme register hurufnya menggunakan membran yang ditempatkan tepat dibawah tombol keyboard sehingga ketika dipencet akan akan mengaktifkan circuit yang ada dibawahnya.
 
@@ -32,34 +32,34 @@ Switch adalah salah satu komponen utama pada mechanical keyboard dan memiliki be
 
 #### Cherry Mx Red
 Salah satu switch mechanical buatan dari cherry dengan karakteristik linier, dan memiliki actuation force 45g
-![Cherry Mx Red](http://www.wasdkeyboards.com/media/guide/cherry-mx-red.jpg)
+![Cherry Mx Red](assets/images/mechkb/red_switch.gif)
 
 #### Cherry Mx Blue
 Switch cherry dengan karakteristik tactile click dengan actuation force 50g
 
-![Cherry Mx Blue](http://www.wasdkeyboards.com/media/guide/cherry-mx-blue.jpg)
+![Cherry Mx Blue](assets/images/mechkb/blue_swich.gif)
 
 #### Cherry Mx Brown
 Switch cherry dengan karakteristik tactile bump dengan actuation force 45g
 
-![Cherry Mx Brown](http://www.wasdkeyboards.com/media/guide/cherry-mx-brown.jpg)
+![Cherry Mx Brown](assets/images/mechkb/brown_switch.gif)
 
 #### Cherry Mx Clear
 Switch cherry dengan karakteristik tactile bump dengan actuation force 65g
 
-![Cherry Mx Clear](http://www.wasdkeyboards.com/media/guide/cherry-mx-clear.jpg)
+![Cherry Mx Clear](assets/images/mechkb/silver_chmx.jpeg)
 
 #### Cherry Mx Black
 Switch cherry dengan karakteristik linear dengan actuation force 60g
 
-![Cherry Mx Black](http://www.wasdkeyboards.com/media/guide/cherry-mx-black.jpg)
+![Cherry Mx Black](assets/images/mechkb/black_switch.gif)
 
 Selain dari produk cherry saat ini mulai banyak produk clone cherry mx yang tidak kalah terkenal
 
 #### Gateron Blue
 Produk dari gateron ini sama halnya dengan cherry, dari sisi karakteristik yakni clicky tactile dan actuation forcenya
 
-![Gateron Blue](https://www.candykeys.com/wp-content/uploads/2017/01/blue1-1.png)
+![Gateron Blue](assets/images/mechkb/gateron_blue.jpg)
 
 #### Zeal Switch
 Selain itu beberapa tahun terakhir ini muncul switch yang populer dikalangan kb enthusiast yakni Zealios switch
