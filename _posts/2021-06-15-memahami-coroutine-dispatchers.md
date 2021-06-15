@@ -25,11 +25,18 @@ Artikel kali ini kelanjutan dari pembahasan sebelumnya terkait **Coroutines**, k
 
 ## Dispatchers.Main
 
-**Dispatcher** yang didesain untuk digunakan main thread (proses UI), dan biasanya berupa single thread, untuk android sendiri selain ada **Dispatcher.Main** ada juga Dispatcher.Main.immediate
+**Dispatcher** yang didesain untuk digunakan main thread (proses UI), dan biasanya berupa single thread, untuk android sendiri selain ada **Dispatcher.Main** ada juga Dispatcher.Main.immediate, bedanya dengan dispatcher.main biasa adalah coroutine function yang menggunakan dispatcher.main.immediate ini akan jalan duluan dibanding dengan coroutines function yang menggunakan dispatcher main.
+
+contoh :
+
+![Dispatchers.Main.Immediate](/assets/images/coroutines/dispatchermain_immediate.png)
+
+hasilnya akan print `Third statement` terlebih dahulu, padahal kode untuk print first statement ada diatas kode third statement
 
 ## Dispatchers.Unconfined
 
 **Dispatcher** ini agak beda dengan dispatchers lainnya, jika menggunakan dispatchers ini, coroutine function kita akan dijalankan langsung ke Thread yang saat ini sedang digunakan. Biasanya digunakan ketika sedang melakukan testing.
+
 
 
 Jadi itulah artikel mengenai Coroutine Dispatchers, semoga bermanfaat.
