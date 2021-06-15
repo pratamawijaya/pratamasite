@@ -38,6 +38,10 @@ hasilnya akan print `Third statement` terlebih dahulu, padahal kode untuk print 
 **Dispatcher** ini agak beda dengan dispatchers lainnya, jika menggunakan dispatchers ini, coroutine function kita akan dijalankan langsung ke Thread yang saat ini sedang digunakan. Biasanya digunakan ketika sedang melakukan testing.
 
 
+## Kesimpulan 
+- untuk menjalankan code pada UI Thread, gunakan Dispatcher.Main.Immediate
+- untuk background thread bisa menggunakan Dispatcher.Default atau Dispatcher.IO
+- dispatcher.unconfined tidak digunakan pada android apps, tidak ada usecase yang cocok
 
 Jadi itulah artikel mengenai Coroutine Dispatchers, semoga bermanfaat.
 Thanks
