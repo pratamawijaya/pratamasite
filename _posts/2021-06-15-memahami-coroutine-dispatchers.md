@@ -17,7 +17,7 @@ Artikel kali ini kelanjutan dari pembahasan sebelumnya terkait **Coroutines**, k
 
 ## Dispatchers.Default
 
-**Dispatcher** ini akan digunakan ketika kita memanggil sebuah coroutine tanpa menentukan dispatcher yang akan digunakan, dispatcher ini menggunakan shared pool thread yang ada pada JVM, dan secara default jumlah maximum threadnya sama dengan jumlah core processor.
+**Dispatcher** ini akan digunakan ketika kita memanggil sebuah coroutine tanpa menentukan dispatcher yang akan digunakan, dispatcher ini menggunakan shared pool thread yang ada pada JVM, dan secara default jumlah maximum threadnya sama dengan jumlah core processor. Biasa digunakan untuk task yang berkaitan dengan computation.
 
 ## Dispatchers.IO
 
