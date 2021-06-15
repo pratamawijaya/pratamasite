@@ -9,7 +9,7 @@ tags :
     - android
     - programming
     - kotlin
-    - coroutine
+    - coroutines
 ---
 
 Artikel kali ini kelanjutan dari pembahasan sebelumnya terkait **Coroutines**, kali ini saya akan coba membahas mengenai 

@@ -9,7 +9,7 @@ tags :
     - android
     - programming
     - kotlin
-    - coroutine
+    - coroutines
 ---
 
 Pada artikel ini saya akan menulis tentang **Coroutines**, apa itu Coroutines ?  Coroutines adalah cara untuk mengatasi masalah *concurrency* atau *async* programming, penjelasan simplenya mengupbah pemanggilan async code menjadi seperti sync code, contoh seperti ini
