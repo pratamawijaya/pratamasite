@@ -2,7 +2,7 @@
 layout: single
 title:  "Berkenalan dengan Jetpack Compose"
 date:   2022-07-23 09:00:00 +0700
-excerpt: "Berkenalan dengan jetpack compose, apa itu Jetpack Compose cara menggunakannya dll akan dibahas pada artikel ini"
+excerpt: "Artikel ini membahas mengenai Jetpack Compose, sebuah tools baru dari Android Teams untuk membangun User Interface pada sebuah aplikasi android"
 categories:
 - android
 tags :
@@ -12,8 +12,8 @@ tags :
 - jetpack-compose
 ---
 
-Untuk membuat user interface pada sebuah aplikasi android kita biasanya akan menggunakan syntax xml sebagaimana yang dikenalkan 
-oleh Google sejak framework android muncul, namun pada akhir-akhir ini Google mengeluarkan sebuah cara baru untuk membuat user interface android yaitu 
+Pada pengembangan sebuah aplikasi android untuk membuat user interfacenya kita biasanya akan menggunakan syntax xml sebagaimana yang dikenalkan 
+oleh Google sejak framework android muncul, namun pada akhir ini Google mengeluarkan sebuah cara baru untuk membuat user interface android yaitu 
 `Jetpack Compose`. Pada artikel ini akan membahas mengenai `Jetpack Compose` dari perspektif Android View XML yang sebelumnya ada.
 
 
@@ -95,7 +95,7 @@ Untuk membuat sebuah UI pada Jetpack Compose kita bisa memulai dari composables 
 yang biasa digunakan seperti `Column`, `Row`, `Box`, `LazyColumn`, `LazyRow`. Fungsi-fungsi 
 composables ini memiliki parameter yang dapat menerima fungsi composables lain.
 
-Untuk mengatur aligment Horizontal ataupun Vertical, kita bisa menggunakan `Column` atau `Row`. Selain itu jika sebelumnya
+Kemudian untuk mengatur aligment Horizontal ataupun Vertical, kita bisa menggunakan `Column` atau `Row`. Selain itu jika sebelumnya
 terbiasa dengan atribute `layout_weight` yang ada diLinearLayout, pada Jetpack Compose juga memiliki fungsi yang sama yaitu
 modifier `weight()`, contoh penggunaan
 
@@ -125,7 +125,7 @@ Box {
 }
 ````
 
-Untuk `Recyclerview` pada Jetpack Compose diganti dengan `LazyColumn` dan `LazyRow`, column ini untuk vertical scrolling, 
+`Recyclerview` pada Jetpack Compose diganti dengan `LazyColumn` dan `LazyRow`, column ini untuk vertical scrolling, 
 sedangkan row untuk yang horizontal scrolling, contoh 
 
 ````
@@ -142,3 +142,54 @@ LazyColumn(Modifier.fillMaxSize()) {
 }
 
 ````
+
+## Handling business logic pada Composables function
+
+Sebuah composables function akan selalu merepresentasikan sebuah element pada screen (contoh avatar) atau bisa juga merepresentasikan sebuah halaman utuh, pada `Jetpack Compose` ada sebuah istilah yang dinamakan (`state hoisting`)[https://developer.android.com/jetpack/compose/state#state-hoisting] sebuah pattern untuk handle state pada sebuah composables yang mana tujuannya adalah agar sebuah function composables menjadi `stateless`
+
+Umumnya pattern ini akan selalu memiliki :
+
+- `value: T` : nilai yang akan ditampilkan pada composables
+- `onValueChange: (T) -> Unit` : sebuah event yang akan digunakan untuk mengubah value, dimana T adalah value baru yang akan disimpan 
+
+````
+@Composable
+fun HelloScreen() {
+    var name by rememberSaveable { mutableStateOf("") }
+
+    HelloContent(name = name, onNameChange = { name = it })
+}
+
+@Composable
+fun HelloContent(name: String, onNameChange: (String) -> Unit) {
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text(
+            text = "Hello, $name",
+            modifier = Modifier.padding(bottom = 8.dp),
+            style = MaterialTheme.typography.h5
+        )
+        OutlinedTextField(
+            value = name,
+            onValueChange = onNameChange,
+            label = { Text("Name") }
+        )
+    }
+} 
+````
+
+Pada contoh diatas, composables `HelloContent` memiliki 2 parameter, 
+- name : sebagai value
+- onNameChange: event untuk mengubah value name
+
+Pada kode diatas, composables `HelloContent` sama sekali tidak akan menyimpan data pada scope functionsya, function HelloContent sudah menjadi sebuah stateless function, setiap perubahan data nama akan dibawa ke-atas (`hosting`) yakni ke composables `HelloScreen`
+
+
+## Cheatsheet
+
+![Jetpack Compose Cheatsheet](assets/images/jetpack-compose/compose-cheat-sheet.webp)
+
+
+
+***References***
+- https://www.composables.co/blog/compose-intro 
+- https://developer.android.com/jetpack/compose/documentation
