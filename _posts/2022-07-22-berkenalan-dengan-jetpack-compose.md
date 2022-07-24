@@ -186,7 +186,7 @@ Pada kode diatas, composables `HelloContent` sama sekali tidak akan menyimpan da
 
 ## Cheatsheet
 
-![Jetpack Compose Cheatsheet](assets/images/jetpack-compose/compose-cheat-sheet.webp)
+![Jetpack Compose Cheatsheet](/assets/images/jetpack-compose/compose-cheat-sheet.webp)
 
 
 
