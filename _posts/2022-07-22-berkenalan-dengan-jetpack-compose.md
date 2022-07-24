@@ -13,8 +13,7 @@ tags :
 ---
 
 Pada pengembangan sebuah aplikasi android untuk membuat user interfacenya kita biasanya akan menggunakan syntax xml sebagaimana yang dikenalkan 
-oleh Google sejak framework android muncul, namun pada akhir ini Google mengeluarkan sebuah cara baru untuk membuat user interface android yaitu 
-`Jetpack Compose`. Pada artikel ini akan membahas mengenai `Jetpack Compose` dari perspektif Android View XML yang sebelumnya ada.
+oleh Google sejak framework android muncul, namun pada akhir ini Google mengeluarkan sebuah cara baru untuk membuat user interface dengan konsep ***Declarative UI*** yaitu `Jetpack Compose`. Pada artikel ini akan membahas mengenai `Jetpack Compose` dari perspektif Android View XML yang sebelumnya ada.
 
 
 ## Dari View berubah menjadi @Composable
