@@ -44,23 +44,23 @@ lalu team bea cukai akan memberikan kode billing, yang akan kita gunakan untuk m
 jika kalian bayar sendiri, maka jangan lupa print bukti pembayarannya, karena ketika bapak pos mengantar paket dia belum paham kalo pajaknya sudah saya bayar, jadi berikan saja bukti bayar pajaknya, dan ada biaya handling buat POS nya juga, punya saya cuma Rp5000 biaya administrasi pos.
 dan total pajak yang harus saya bayar dari harga barang yang saya beli 530rb adalah 99rb cukup fair lah :))) 
 
-![unboxing](/assets/images/mechkb/DSC09483.JPG)
+![unboxing](/assets/images/mechkb/DSC09483.png)
 
 dari qualitynya dengan harga segitu, cukup lumayan, dan materialnya hanyalah pbt, perbandingan dengan boxnya gmk dari uniqey
 
-![gmk box](/assets/images/mechkb/DSC09489.JPG)
+![gmk box](/assets/images/mechkb/DSC09489.png)
 
 dari gmk pun sekarang jarang yang memberikan tray plastik, 
 
 jika dibandingkan ketebalannya memang jauh, lebih tebal abs nya gmk
 
-![ketebalan](/assets/images/mechkb/DSC09495.jpeg)
+![ketebalan](/assets/images/mechkb/DSC09495.webp)
 
-![ketebalan](/assets/images/mechkb/DSC09494.jpeg)
+![ketebalan](/assets/images/mechkb/DSC09494.webp)
 
 Namun tetap cakep kalo dah dipasang dikeyboard
 
-![keyboard](/assets/images/mechkb/DSC09481.JPG)
+![keyboard](/assets/images/mechkb/DSC09481.png)
 
 so far untuk experience ngetiknya masih enak ketika pakai keycap gmk, emang harga tidak bohong sih :)) 
 
