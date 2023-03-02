@@ -1,3 +1,9 @@
-{
-    "key":"hello"
-}
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.pratama.modular",
+      "sha256_cert_fingerprints":
+      ["8E:C9:BD:9F:75:B8:16:B0:E7:6D:C1:51:D1:3A:75:7D:F1:D9:EE:25:3D:00:77:A1:C3:D6:F6:AE:8D:37:68:72"]
+    }
+  }]
