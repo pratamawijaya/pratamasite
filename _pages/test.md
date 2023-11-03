@@ -15,4 +15,4 @@ Kumpulan tutorial programming android menggunakan IDE android studio dan bahasa 
 
 - [Android RecyclerView Kotlin](https://pratamawijaya.com/programming/android-recyclerview-kotlin/)
 
-- [some url test](https://linkaja.id/applink/sate)
+- [some url test](https://linkaja.id/payment?data=xxxxx)
